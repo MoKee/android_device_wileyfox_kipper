@@ -52,10 +52,10 @@ USE_DEVICE_SPECIFIC_GPS := true
 BOARD_DTBTOOL_ARGS := -2
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_CONFIG := lineageos_kipper_defconfig
+TARGET_KERNEL_CONFIG := mokee_kipper_defconfig
 
-# LineageHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
+# MKHW
+BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/mkhw
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
