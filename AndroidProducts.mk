@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kipper.mk
+    $(LOCAL_DIR)/mk_kipper.mk

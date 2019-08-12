@@ -23,7 +23,7 @@
 #include "KeyDisabler.h"
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -31,7 +31,7 @@ namespace implementation {
 constexpr const char kControlPath[] =
         "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0024/main_ttsp_core.cyttsp4_i2c_adapter/btn_enabled";
 
-// Methods from ::vendor::lineage::touch::V1_0::IKeyDisabler follow.
+// Methods from ::vendor::mokee::touch::V1_0::IKeyDisabler follow.
 Return<bool> KeyDisabler::isEnabled() {
     std::string buf;
 
@@ -55,5 +55,5 @@ Return<bool> KeyDisabler::setEnabled(bool enabled) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace lineage
+}  // namespace mokee
 }  // namespace vendor

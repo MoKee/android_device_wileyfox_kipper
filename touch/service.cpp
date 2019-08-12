@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.touch@1.0-service.kipper"
+#define LOG_TAG "vendor.mokee.touch@1.0-service.kipper"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -25,8 +25,8 @@
 using android::sp;
 using android::OK;
 
-using ::vendor::lineage::touch::V1_0::IKeyDisabler;
-using ::vendor::lineage::touch::V1_0::implementation::KeyDisabler;
+using ::vendor::mokee::touch::V1_0::IKeyDisabler;
+using ::vendor::mokee::touch::V1_0::implementation::KeyDisabler;
 
 int main() {
     sp<IKeyDisabler> keyDisabler = new KeyDisabler();

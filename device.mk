@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.kipper
+    vendor.mokee.touch@1.0-service.kipper
 
 # USB ID
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
